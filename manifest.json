@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Limit Bar",
+  "version": "1.1.0",
+  "description": "Shows your remaining Claude usage limit (5-hour and weekly) as color-coded bars next to the model picker on claude.ai.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["bar.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
