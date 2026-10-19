@@ -4,6 +4,8 @@
 
 Reads the exact same usage numbers your own account already sees, renders them locally, and talks to nothing but claude.ai — no account, no server, no tracking, no telemetry. Free, open-source (MIT), and small enough (one file) to read start to finish before you trust it.
 
+[Русская версия →](README.ru.md)
+
 Want the same thing without a browser — a floating overlay and tray icon that work even when the browser is closed? See [claude-limit-bar-desktop](https://github.com/dmminga1983/claude-limit-bar-desktop) (Windows).
 
 Without this extension you have to open a menu to check how much limit is left. With it, you see it immediately — a color-coded bar with a percentage, plus the exact time until reset on hover.
